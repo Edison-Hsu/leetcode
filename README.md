@@ -1,6 +1,9 @@
 # Leetcode
 Personal repository implement with Ruby
 
+## 13. Roman to Integer
+查表，通过从前往前筛选字符串，把代表的值一个个加起来
+
 ## 27. Remove Element
 这题用ruby简直是开挂。一个Array#delete方法即解决问题
 
