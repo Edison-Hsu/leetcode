@@ -4,6 +4,9 @@ Personal repository implement with Ruby
 ## 13. Roman to Integer
 查表，通过从前往前筛选字符串，把代表的值一个个加起来
 
+## 26. Remove Duplicates from Sorted Array
+难度easy的题目。根据题目要求，是不能新建数组。只能在原来的基础上做修改。基本上这个算法类似冒泡算法，因为已经是排序过的，只要做一个循环，把上一次的值存下来，如果相同说明重复，如果不同，那么根据自己计数的index赋值到对应位置，最后返回counter
+
 ## 27. Remove Element
 这题用ruby简直是开挂。一个Array#delete方法即解决问题
 
