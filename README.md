@@ -16,6 +16,9 @@ Runtime: 84 ms, beats 33.33%
 
 新的成绩是：Runtime: 68 ms, beats 79.13%
 
+## 189. Rotate Array
+pop一个unshift一个，思路比较简单。所以效率并不是最好。
+
 ## 226. Invert Binary Tree
 翻转二叉树，关键点在于递归的运用，递归到最后翻转左右子树即可
 
