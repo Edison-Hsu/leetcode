@@ -3,6 +3,7 @@
 # @param {Integer[]} nums2
 # @param {Integer} n
 # @return {Void} Do not return anything, modify nums1 in-place instead.
+# Runtime: 72 ms
 def merge(nums1, m, nums2, n)
     tmp_nums = Array.new(nums1[0,m])
     curr_tmp_nums, curr_nums1, curr_nums2 = 0, 0, 0
