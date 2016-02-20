@@ -1,7 +1,7 @@
 # @param {Integer[]} candidates
 # @param {Integer} target
 # @return {Integer[][]}
-# Your runtime beats 54.17% of rubysubmissions.
+# Your runtime beats 100% of rubysubmissions.
 def combination_sum(candidates, target)
   result = []
   candidates.sort!
