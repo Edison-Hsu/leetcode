@@ -16,6 +16,9 @@ Runtime: 84 ms, beats 33.33%
 
 新的成绩是：Runtime: 68 ms, beats 79.13%
 
+## 39. combination_sum
+利用dfs的思路使用递归，找出所有组合的情况
+
 ## 189. Rotate Array
 pop一个unshift一个，思路比较简单。所以效率并不是最好。
 
