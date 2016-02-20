@@ -13,7 +13,8 @@ def backtracking(array, target, index, path, result)
   return if target < 0
   return result << path if target == 0
   (index...array.length).each do |x|
-    backtracking(array, target - array[x], x, path+[array[x]], result)
+    break if array[x] > target
+    backtracking(array, target - array[x], x, path + [array[x]], result)
   end
 
 end
